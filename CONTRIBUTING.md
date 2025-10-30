@@ -48,7 +48,8 @@ Before submitting:
 
 3. Ensure JSON/XML files are valid:
    ```bash
-   python3 -m json.tool wsl/editor/settings.json
+   python3 -m json.tool wsl/zed/settings.json
+   python3 -m json.tool wsl/cursor/settings.json
    ```
 
 4. Check shell scripts for syntax errors:

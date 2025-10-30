@@ -12,7 +12,8 @@ Thumbs.db
 *.tmp
 .tmp/
 
-# Editor-specific files that shouldn't be synced
+# Editor-specific files that shouldn't be committed to version control
+# (Actual editor configs are stored in wsl/ directory and synced via scripts)
 .vscode/
 .idea/
 *.code-workspace
