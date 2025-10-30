@@ -1,0 +1,35 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  
+  <!-- Editor Settings -->
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="IS_WHITESPACES_SHOWN" value="false" />
+    <option name="IS_INDENT_GUIDES_SHOWN" value="true" />
+    <option name="IS_ANIMATED_SCROLLING" value="true" />
+    <option name="IS_CAMEL_WORDS" value="true" />
+    <option name="SHOW_INTENTION_BULB" value="true" />
+    <option name="SHOW_EXTERNAL_ANNOTATIONS_INLINE" value="true" />
+  </component>
+  
+  <!-- Code Style -->
+  <component name="CodeStyleSettings">
+    <option name="LINE_SEPARATOR" value="&#10;" />
+    <option name="RIGHT_MARGIN" value="120" />
+    <option name="SOFT_MARGINS" value="80,120" />
+    <option name="WRAP_ON_TYPING" value="Default" />
+  </component>
+  
+  <!-- Font Settings -->
+  <component name="EditorColorsManager">
+    <global_color_scheme name="Darcula" />
+  </component>
+  
+  <component name="TodoConfiguration">
+    <pattern pattern="TODO" />
+    <pattern pattern="FIXME" />
+    <pattern pattern="HACK" />
+  </component>
+</application>
