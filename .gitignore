@@ -1,0 +1,31 @@
+# Backup files
+*.backup.*
+*~
+.*.swp
+.*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+.tmp/
+
+# Editor-specific files that shouldn't be committed to version control
+# (Actual editor configs are stored in wsl/ directory and synced via scripts)
+.vscode/
+.idea/
+*.code-workspace
+
+# Node modules (if any scripts add dependencies)
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+dist/
+build/

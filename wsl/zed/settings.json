@@ -1,0 +1,70 @@
+{
+  "theme": "One Dark",
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "buffer_font_family": "JetBrains Mono",
+  "vim_mode": false,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "assistant": {
+    "default_model": {
+      "provider": "copilot",
+      "model": "gpt-4"
+    },
+    "version": "2"
+  },
+  "features": {
+    "copilot": true
+  },
+  "terminal": {
+    "shell": {
+      "program": "/bin/bash"
+    },
+    "working_directory": "current_project_directory",
+    "font_family": "JetBrains Mono",
+    "font_size": 14
+  },
+  "git": {
+    "enabled": true,
+    "autoFetch": true,
+    "git_gutter": "tracked_files"
+  },
+  "languages": {
+    "Python": {
+      "format_on_save": "on",
+      "formatter": "language_server"
+    },
+    "JavaScript": {
+      "format_on_save": "on",
+      "formatter": "prettier"
+    },
+    "TypeScript": {
+      "format_on_save": "on",
+      "formatter": "prettier"
+    },
+    "Rust": {
+      "format_on_save": "on"
+    }
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "checkOnSave": {
+          "command": "clippy"
+        }
+      }
+    }
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/node_modules",
+    "**/.venv",
+    "**/target",
+    "**/.idea"
+  ],
+  "inlay_hints": {
+    "enabled": true
+  }
+}
